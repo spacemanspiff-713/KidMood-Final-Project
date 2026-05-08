@@ -81,7 +81,7 @@ Only the four target class folders are used. Extra Kaggle folders can remain in 
 ### Installation
 
 ```bash
-git clone <your-repository-url>
+git clone spacemanspiff-713/KidMood-Final-Project
 cd KidMood-Final-Project
 
 python -m venv .venv
@@ -260,6 +260,6 @@ Academic Use Only
 
 ## Acknowledgments
 
-Thanks to the ITAI 1378 instructor for project guidance.  
+Thanks to Professor Hardik Gohel for an amazing course experience.  
 Pretrained models from TensorFlow / Keras applications.  
 AI assistance from ChatGPT for planning and scaffolding.
