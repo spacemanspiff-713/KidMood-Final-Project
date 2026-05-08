@@ -1,0 +1,8 @@
+filename,expected_label,notes
+angry_demo.jpg,Angry,Copied from the Kaggle FER-2013 test split for inference demo
+fear_demo.jpg,Fear,Copied from the Kaggle FER-2013 test split for inference demo
+happy_demo.jpg,Happy,Copied from the Kaggle FER-2013 test split for inference demo
+sad_demo.jpg,Sad,Copied from the Kaggle FER-2013 test split for inference demo
+angry-boy.jpg,Angry,Additional user-provided demo image
+sad-boy.jpg,Sad,Additional user-provided demo image
+sad-girl.jpg,Sad,Additional user-provided demo image

@@ -1,0 +1,8 @@
+filename,expected_label,predicted_label,confidence,inference_time_seconds,result,output_image
+angry-boy.jpg,Angry,Angry,0.2997,0.7799,correct,results/images/angry-boy_prediction.jpg
+angry_demo.jpg,Angry,Sad,0.4011,0.0460,review,results/images/angry_demo_prediction.jpg
+fear_demo.jpg,Fear,Fear,0.3366,0.0451,correct,results/images/fear_demo_prediction.jpg
+happy_demo.jpg,Happy,Happy,0.8916,0.0452,correct,results/images/happy_demo_prediction.jpg
+sad-boy.jpg,Sad,Angry,0.3446,0.0440,review,results/images/sad-boy_prediction.jpg
+sad-girl.jpg,Sad,Sad,0.2707,0.0439,correct,results/images/sad-girl_prediction.jpg
+sad_demo.jpg,Sad,Sad,0.6232,0.0445,correct,results/images/sad_demo_prediction.jpg

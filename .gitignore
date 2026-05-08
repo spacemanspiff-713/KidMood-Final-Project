@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Large/raw data
+data/raw/*
+!data/raw/.gitkeep
+
+# Keep trained models out unless intentionally committed
+models/trained/*.keras
+models/trained/*.h5
+!models/trained/kidmood_mobilenetv2.keras
+
+# Keep temporary smoke-test artifacts out of final submission
+models/trained/kidmood_smoke_test.keras
+results/smoke_test/

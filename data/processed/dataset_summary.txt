@@ -1,0 +1,28 @@
+KidMood Folder-Based FER-2013 Dataset Summary
+==============================================
+
+Raw dataset directory: data/raw
+
+Class mapping:
+  0: Angry
+  1: Fear
+  2: Happy
+  3: Sad
+
+Train image counts:
+  Angry: 3995
+  Fear: 4097
+  Happy: 7215
+  Sad: 4830
+
+Test image counts:
+  Angry: 958
+  Fear: 1024
+  Happy: 1774
+  Sad: 1247
+
+Total train images: 20137
+Total test images: 5003
+
+Images are loaded with tf.keras.utils.image_dataset_from_directory.
+The training split is further divided into train/validation during model training.
