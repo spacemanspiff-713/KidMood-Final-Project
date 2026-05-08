@@ -37,7 +37,7 @@ def main() -> None:
     y_test = np.concatenate([labels.numpy() for _, labels in test_ds], axis=0)
     test_ds = optimize_dataset(test_ds)
 
-    model = tf.keras.models.load_model(model_path)
+    model = tf.keras.models.load_model(model_path, compile=False)
     probs = model.predict(test_ds)
     y_pred = np.argmax(probs, axis=1)
 

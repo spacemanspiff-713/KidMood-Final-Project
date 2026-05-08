@@ -47,7 +47,7 @@ def main() -> None:
             f"Model not found: {model_path}. Train the model first with src/train.py."
         )
 
-    model = tf.keras.models.load_model(model_path)
+    model = tf.keras.models.load_model(model_path, compile=False)
     batch = load_single_image_for_inference(image_path)
 
     probs, elapsed = timed_prediction(model, batch)

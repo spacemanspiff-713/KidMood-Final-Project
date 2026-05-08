@@ -1,7 +1,7 @@
 KidMood Folder-Based FER-2013 Dataset Summary
 ==============================================
 
-Raw dataset directory: data/raw
+Raw dataset directory: /home/daddy/Desktop/_DEV/_SCHOOL/ITAI-1378_COMP-VISION/KidMood-Final-Project/data/raw
 
 Class mapping:
   0: Angry
