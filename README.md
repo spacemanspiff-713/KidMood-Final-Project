@@ -136,6 +136,12 @@ Step 4: Run inference:
 python src/inference.py --image data/sample/happy_demo.jpg --model models/trained/kidmood_mobilenetv2.keras --output results/images
 ```
 
+The final trained model is included at:
+
+```txt
+models/trained/kidmood_mobilenetv2.keras
+```
+
 ---
 
 ## Results
