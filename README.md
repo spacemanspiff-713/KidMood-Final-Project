@@ -4,6 +4,9 @@
 
 A computer vision system that classifies facial expressions into **Happy**, **Sad**, **Angry**, or **Fear** using the Kaggle FER-2013 image-folder dataset and transfer learning.
 
+### DEMO VIDEO LINK
+https://www.loom.com/share/ccdd3ba9245e44bfb4b74ba7d4e798ad
+
 ## Team Members
 
 - **Jason Trimble** - Solo developer, dataset preparation, model training, evaluation, demo, documentation
